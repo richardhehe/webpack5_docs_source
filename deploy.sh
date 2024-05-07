@@ -23,7 +23,7 @@ git commit -m "自动部署"
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
-git push -f https://github.com/richardhehe/wepack5_docs.git main:main
+git push -f https://github.com/richardhehe/webpack5_docs.git main:main
 
 
 cd -
@@ -34,5 +34,5 @@ git add -A
 git commit -m "源码推送"
 #git push -f https://gitee.com/zhuquanyu/webpack_docs.git master:master
 
-git push -f https://github.com/richardhehe/wepack5_docs_source.git main:main
+git push -f https://github.com/richardhehe/webpack5_docs_source.git main:main
 
